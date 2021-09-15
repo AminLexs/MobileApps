@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Каталог процессоров</string>
+    <string name="col1">Картинка</string>
+    <string name="col2">Производитель</string>
+    <string name="col3">Модель</string>
+    <string name="col4">Частота</string>
+    <string name="col5">Количество ядер</string>
+    <string name="title_home">Домой</string>
+    <string name="title_map">Карта</string>
+    <string name="title_settings">Настройки</string>
+
+    <string name="login_email">Введите email</string>
+    <string name="login_password">Введите пароль</string>
+    <string name="login_notreg">Не зарегестрированы?</string>
+    <string name="login_blogin">Войти</string>
+    <string name="login_bregistration">Регистрация</string>
+
+    <string name="reg_email">Введите email</string>
+    <string name="reg_password">Введите пароль</string>
+    <string name="reg_manufacturer">Введите производителя</string>
+    <string name="reg_model">Введите модель</string>
+    <string name="reg_bitsdepth">Введите разрядность</string>
+    <string name="reg_frequency">Введите частоту (GHz)</string>
+    <string name="reg_numcores">Введите количество ядер</string>
+    <string name="reg_bregister">Зарегестрироваться</string>
+
+    <string name="home_selected">Выбран</string>
+
+    <string name="settings_title">Настройки</string>
+    <string name="settings_english">Английский</string>
+    <string name="settings_russian">Русский</string>
+
+    <string name="settings_dis_dm">Отключить тёмную тему</string>
+    <string name="settings_enable_dm">Включить тёмную тему</string>
+    <string name="settings_selectlang">Выбрать язык</string>
+    <string name="settings_selectsize">Выбрать размер шрифта</string>
+    <string name="settings_selectfont">Выбрать стиль шрифта</string>
+
+    <string name="detailed_description">Описание:</string>
+    <string name="navigation_back">Назад</string>
+    <string name="navigation_edit">Редактировать</string>
+    <string name="navigation_photo">Фотографии</string>
+    <string name="navigation_save">Сохранить</string>
+    <string name="navigation_video">Видео</string>
+
+    <string name="edit_model">Введите модель</string>
+    <string name="edit_manufacturer">Введите производителя</string>
+    <string name="edit_bitsdepth">Введите разрядность</string>
+    <string name="edit_frequency">Введите частоту (GHz)</string>
+    <string name="edit_button_save">Сохранить</string>
+    <string name="edit_latitude">Введите x координату</string>
+    <string name="edit_longitude">Введите y координату</string>
+    <string name="edit_description">Введите описание</string>
+    <string name="edit_numcores">Введите количество ядер</string>
+    <string name="edit_coords_value">Введите корректные координаты</string>
+    <string name="edit_fill_all">Заполните все поля</string>
+
+    <string name="detailed_core">Ядер</string>
+    <string name="detailed_bitsdepth">Разрядность:</string>
+
+</resources>

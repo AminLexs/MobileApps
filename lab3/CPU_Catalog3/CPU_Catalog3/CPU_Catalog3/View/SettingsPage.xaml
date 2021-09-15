@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CPU_Catalog3.View.SettingsPage">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Label x:Name="settingsLabel" 
+                Text="Settings:"
+                FontSize="Title"
+                Padding="0, 10, 0, 10"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center" />
+            
+            <Frame x:Name="interfaceFrame" Margin="10, 10, 10, 0">
+                <StackLayout Orientation="Vertical">
+                    <Label x:Name="interfaceLabel" 
+                        Text="Interface:"
+                        FontSize="{DynamicResource Key=FontSize}"
+                   FontFamily="{DynamicResource Key=FontFamily}"
+                        VerticalTextAlignment="Center"
+                        HorizontalOptions="Center"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label x:Name="langLabel"
+                            Text="Language:" 
+                            FontSize="{DynamicResource Key=FontSize}"
+                   FontFamily="{DynamicResource Key=FontFamily}"
+                            VerticalTextAlignment="Center" />
+                        <Picker x:Name="langPicker"
+                            HorizontalOptions="FillAndExpand"
+                            SelectedIndexChanged="LangPicker_SelectedIndexChanged"
+                                FontSize="{DynamicResource Key=FontSize}"
+                   FontFamily="{DynamicResource Key=FontFamily}"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label x:Name="themeLabel" 
+                            Text="Theme:"
+                            FontSize="{DynamicResource Key=FontSize}"
+                   FontFamily="{DynamicResource Key=FontFamily}"
+                            VerticalTextAlignment="Center" />
+                        <Picker x:Name="themePicker"
+                            HorizontalOptions="FillAndExpand"
+                            SelectedIndexChanged="ThemePicker_SelectedIndexChanged"
+                                FontSize="{DynamicResource Key=FontSize}"
+                   FontFamily="{DynamicResource Key=FontFamily}"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label  x:Name="FontLabel" FontSize="{DynamicResource Key=FontSize}"
+                   FontFamily="{DynamicResource Key=FontFamily}" Margin="0,0,0,20" />
+
+                        <Picker x:Name="Fonts"  HorizontalOptions="FillAndExpand" SelectedIndexChanged="Fonts_OnSelectedIndexChanged" FontSize="{DynamicResource Key=FontSize}"
+                   FontFamily="{DynamicResource Key=FontFamily}">
+                            <Picker.Items>
+                                <x:String>Droid Sans</x:String>
+                                <x:String>Open Sans</x:String>
+                                <x:String>Stick</x:String>
+                            </Picker.Items>
+                        </Picker>
+                    </StackLayout>
+
+                    <Slider x:Name="Size" Maximum="26" Minimum="14" Value="20" MinimumTrackColor="Gray"
+                        MaximumTrackColor="Gray"
+                        Margin="0,0,0,30" HorizontalOptions="FillAndExpand" ValueChanged="Size_OnValueChanged" />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

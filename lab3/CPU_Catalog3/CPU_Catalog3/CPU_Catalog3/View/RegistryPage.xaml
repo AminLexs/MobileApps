@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CPU_Catalog3.View.RegistryPage">
+
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Margin="10, 0, 10, 0">
+            <Label Text="Registry"
+                   TextDecorations="Underline"
+                   HorizontalOptions="Center"
+                   FontSize="Title"
+                   TextColor="#8DB600"/>
+            <Frame BackgroundColor="White"
+                   BorderColor="#E6567A">
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Email:"
+                        VerticalTextAlignment="Center"
+                        TextColor="#3B3C3D"
+                        FontSize="Medium"/>
+                        <Entry x:Name="emailEntry" 
+                            FontSize="Medium"
+                            VerticalTextAlignment="Center"
+                            HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Password:"
+                        VerticalTextAlignment="Center"
+                        TextColor="#3B3C3D"
+                        FontSize="Medium"/>
+                        <Entry x:Name="passEntry" 
+                            FontSize="Medium"
+                            VerticalTextAlignment="Center"
+                            HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Model:"
+                        VerticalTextAlignment="Center"
+                        TextColor="#3B3C3D"
+                        FontSize="Medium"/>
+                        <Entry x:Name="modelEntry" 
+                            FontSize="Medium"
+                            VerticalTextAlignment="Center"
+                            HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Manufacturer:"
+                        VerticalTextAlignment="Center"
+                        TextColor="#3B3C3D"
+                        FontSize="Medium"/>
+                        <Picker x:Name="manufacturerPicker" 
+                            FontSize="Medium"
+                            VerticalTextAlignment="Center"
+                            HorizontalOptions="FillAndExpand">
+                            <Picker.Items>
+                                <x:String>Intel</x:String>
+                                <x:String>AMD</x:String>
+                            </Picker.Items>
+                        </Picker>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Bits depth:"
+                        VerticalTextAlignment="Center"
+                        TextColor="#3B3C3D"
+                        FontSize="Medium"/>
+                        <Picker x:Name="bitsdepthPicker" 
+                            FontSize="Medium"
+                            VerticalTextAlignment="Center"
+                            HorizontalOptions="FillAndExpand">
+                            <Picker.Items>
+                                <x:String>x32</x:String>
+                                <x:String>x64</x:String>
+                            </Picker.Items>
+                        </Picker>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Frequency(GHz):"
+                        VerticalTextAlignment="Center"
+                        TextColor="#3B3C3D"
+                        FontSize="Medium"/>
+                        <Entry x:Name="frequencyEntry" 
+                            FontSize="Medium"
+                            VerticalTextAlignment="Center"
+                            HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Number of cores:"
+                        VerticalTextAlignment="Center"
+                        TextColor="#3B3C3D"
+                        FontSize="Medium"/>
+                        <Entry x:Name="numcoresEntry" 
+                            FontSize="Medium"
+                            VerticalTextAlignment="Center"
+                            HorizontalOptions="FillAndExpand"/>
+
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Button x:Name="registryButton"
+                    Text="Registry"
+                    BackgroundColor="#8DB600"
+                    TextColor="White"
+                    WidthRequest="220"
+                    HorizontalOptions="Center"
+                    Margin="0, 10, 0, 0"
+                    Clicked="registryButton_ClickedAsync"/>
+        </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

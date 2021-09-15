@@ -1,0 +1,73 @@
+/* 
+  Localizable.strings
+  CPU_Catalog
+
+  Created by Admin on 04.03.2021.
+  
+*/
+"DetailedViewController_descriptionStaticLabel" = "Description:";
+"DetailedViewController_manufacturerStaticLabel" = "Manufacturer:";
+"DetailedViewController_architectureStaticLabel" = "Architecture:";
+"DetailedViewController_bitsdepthStaticLabel" = "Bit capacity:";
+"DetailedViewController_numcoresStaticLabel" = "Number of cores:";
+"DetailedViewController_frequencyStaticLabel" = "Frequency:";
+"DetailedViewController_editCPUButton" = "Edit";
+"DetailedViewController_showCollectionButton" = "Show photos";
+
+"LoginViewController_emailTextField" = "Enter Email";
+"LoginViewController_passwordTextField" = "Enter Password";
+"LoginViewController_firstNameTextField" = "Enter First Name";
+"LoginViewController_lastNameTextField" = "Enter Last Name";
+"LoginViewController_signUpButton" = "Sign Up";
+"LoginViewController_loginButton" = "Log In";
+"LoginViewController_loginError" = "Email or password is incorrect" ;
+"LoginViewController_backButton" ="Back";
+
+"TableViewController_itemBar" = "Processors";
+"TableViewController_logoutBar" = "LogOut";
+"TableViewController_moreDetailsButton" = "More details";
+"SettingsViewController_itemBar" = "Settings";
+"MapViewController_itemBar" = "Map";
+
+"CPUEditorViewController_modelTextField" = "Enter model";
+"CPUEditorViewController_manufacturerTextField" = "Enter manufacturer";
+"CPUEditorViewController_bitsdepthTextField" = "Enter bit capacity";
+"CPUEditorViewController_architectureTextField" = "Enter architecture";
+"CPUEditorViewController_numcoresTextField" = "Enter number of cores";
+"CPUEditorViewController_frequencyTextField" = "Enter frequency";
+"CPUEditorViewController_xTextField" = "Enter Latitude";
+"CPUEditorViewController_yTextField" = "Enter Longitude";
+"CPUEditorViewController_saveButton" = "Save";
+"CPUEditorViewController_urlVideoTextField"="Enter URL video";
+"CPUEditorViewController_addToCollectionButton"="Add
+to collection";
+"CPUEditorViewController_deleteFromCollectionButton" = "Delete from collection";
+
+"SignUpViewController_authError" = "Email is incorrect";
+"SignUpViewController_dataError" = "Unable to create new account";
+"SignUpViewController_notFullError" = "Please fill all the text fields";
+"SignUpViewController_sickPasswordError" = "Password is not strong enough";
+"SignUpViewController_avatarError" = "Picture must be provided";
+"SignUpViewController_manufacturerTextField"="Enter manufacturer";
+"SignUpViewController_modelTextField"="Enter model";
+"SignUpViewController_bitsdepthLabel"="Choose bit capacity:";
+"SignUpViewController_architectureTextField"="Enter architecture";
+"SignUpViewController_numcoresTextField"="Enter number of Cores";
+"SignUpViewController_frequencyTextField"="Enter frequency";
+
+
+"SettingsViewController_English" = "English";
+"SettingsViewController_Russian" = "Russian";
+"SettingsViewController_titleLabel" = "Settings";
+"SettingsViewController_langLabel" = "Language:";
+"SettingsViewController_colorLabel" = "Color:";
+"SettingsViewController_darkModeLabel" = "Dark mode:";
+"SettingsViewController_sizeLabel" = "Font size:";
+"SettingsViewController_colorThemeButton" = "Color";
+"SettingsViewController_fontButton" = "Change font";
+"SettingsViewController_fontLabel" = "Font:";
+
+"CharacterEditViewController_coordsNotDouble" = "Coords must be of valid numeric type";
+"CharacterEditViewController_dataError" = "Unable to save data";
+"CPUphotoViewController_deleteButton" = "Delete";
+"CPUphotoViewController_warningLabel" = "The deletion will be irrevocable!";

@@ -1,0 +1,44 @@
+{
+  "screen_login": "SW",
+  "welcome": "Welcome to the SW!",
+  "email": "Email",
+  "password": "Password",
+  "model": "Model",
+  "manufacturer": "Manufacturer",
+  "frequency": "Frequency",
+  "numcores": "Number of cores",
+  "login": "Login",
+  "addCPU": "Register",
+  "cpuAddSuccess": "Added new cpu",
+  "add": "Add",
+  "err_email": "No user found for that email",
+  "err_password": "Wrong password provided for that user",
+  "err_week_password": "The password provided is too weak",
+  "err_email_in_use": "The account already exists for that email",
+  "err_empty": "Please, fill all fields",
+
+  "users": "CPUs",
+  "map": "Map",
+  "settings": "Settings",
+
+  "search": "Search",
+
+  "cpu_edit_success": "CPU saved",
+  "latitude": "Latitude",
+  "longitude": "Longitude",
+  "watch_video": "Watch video",
+  "select_video": "Select video",
+  "save": "Save",
+  "galery": "Galery",
+
+  "video_screen": "Video",
+
+  "lang": "Language",
+  "lang_ru": "Russian",
+  "lang_en": "English",
+  "font_size": "Font size",
+  "primary_colour": "Primary colour",
+  "dark_theme": "Dark theme",
+  "select": "Select",
+  "logout": "LogOut"
+}

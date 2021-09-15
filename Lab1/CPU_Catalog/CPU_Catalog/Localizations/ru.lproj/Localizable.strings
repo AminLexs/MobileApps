@@ -1,0 +1,76 @@
+/* 
+  Localizable.strings
+  CPU_Catalog
+
+  Created by Admin on 04.03.2021.
+  
+*/
+
+
+"DetailedViewController_descriptionStaticLabel" = "Описание:";
+"DetailedViewController_manufacturerStaticLabel" = "Производитель:";
+"DetailedViewController_architectureStaticLabel" = "Архитектура:";
+"DetailedViewController_bitsdepthStaticLabel" = "Разрядность:";
+"DetailedViewController_numcoresStaticLabel" = "Количество ядер:";
+"DetailedViewController_frequencyStaticLabel" = "Частота:";
+"DetailedViewController_editCPUButton" = "Редактировать";
+"DetailedViewController_showCollectionButton" = "Показать фото";
+
+"LoginViewController_emailTextField" = "Введите Email";
+"LoginViewController_passwordTextField" = "Введите Пароль";
+"LoginViewController_firstNameTextField" = "Введите Имя";
+"LoginViewController_lastNameTextField" = "Введите Фамилию";
+"LoginViewController_signUpButton" = "Зарегистрироваться";
+"LoginViewController_loginButton" = "Войти";
+"LoginViewController_loginError" = " Email или пароль не корректны" ;
+"LoginViewController_backButton" = "Назад";
+
+"TableViewController_itemBar" = "Процессоры";
+"TableViewController_logoutBar" = "Выйти";
+"TableViewController_moreDetailsButton" = "Подробнее";
+"SettingsViewController_itemBar" = "Настройки";
+"MapViewController_itemBar" = "Карта";
+
+"CPUEditorViewController_modelTextField" = "Введите модель";
+"CPUEditorViewController_manufacturerTextField" = "Введите производителя";
+"CPUEditorViewController_bitsdepthTextField" = "Введите разрядность";
+"CPUEditorViewController_architectureTextField" = "Введите архитектуру";
+"CPUEditorViewController_numcoresTextField" = "Введите количество ядер";
+"CPUEditorViewController_frequencyTextField" = "Введите частоту";
+"CPUEditorViewController_xTextField" = "Введите Широту";
+"CPUEditorViewController_yTextField" = "Введите Долготу";
+"CPUEditorViewController_saveButton" = "Сохранить";
+"CPUEditorViewController_urlVideoTextField"="Введите URL видео";
+"CPUEditorViewController_addToCollectionButton"="Добавить
+в коллекцию";
+"CPUEditorViewController_deleteFromCollectionButton" = "Удалить из коллекции";
+
+"SignUpViewController_authError" = "Email некорректен";
+"SignUpViewController_dataError" = "Невозможно создать аккаунт";
+"SignUpViewController_notFullError" = "Заполните все текстовые поля";
+"SignUpViewController_sickPasswordError" = "Пароль не надежный";
+"SignUpViewController_avatarError" = "Выберете картинку";
+"SignUpViewController_manufacturerTextField"="Введите производителя";
+"SignUpViewController_modelTextField"="Введите модель";
+"SignUpViewController_bitsdepthLabel"="Выберете разрядность:";
+"SignUpViewController_architectureTextField"="Введите архитектуру";
+"SignUpViewController_numcoresTextField"="Введите количество ядер";
+"SignUpViewController_frequencyTextField"="Введите частоту";
+
+
+"SettingsViewController_English" = "Английский";
+"SettingsViewController_Russian" = "Русский";
+"SettingsViewController_titleLabel" = "Настройки";
+"SettingsViewController_langLabel" = "Язык:";
+"SettingsViewController_colorLabel" = "Цвет:";
+"SettingsViewController_darkModeLabel" = "Темная тема";
+"SettingsViewController_sizeLabel" = "Размер шрифта:";
+"SettingsViewController_colorThemeButton" = "Цвет";
+"SettingsViewController_fontButton" = "Поменять шрифт";
+"SettingsViewController_fontLabel" = "Шрифт:";
+
+
+"CharacterEditViewController_coordsNotDouble" = "Координаты должны быть числом";
+"CharacterEditViewController_dataError" = "Невозможно сохранить данные";
+"CPUphotoViewController_deleteButton" = "Удалить";
+"CPUphotoViewController_warningLabel" = "Удаление будет безвозвратным!";

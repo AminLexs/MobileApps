@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="80dp"
+    android:layout_width="match_parent">
+
+    <item
+        android:id="@+id/back"
+        android:icon="@drawable/back"
+        android:title="@string/navigation_back" />
+
+    <item
+        android:id="@+id/edit_button"
+        android:icon="@drawable/edit"
+        android:title="@string/navigation_edit" />
+
+    <item
+        android:id="@+id/photo_button"
+        android:icon="@drawable/photo"
+        android:title="@string/navigation_photo" />
+    <item
+        android:id="@+id/video_button"
+        android:icon="@drawable/video"
+        android:title="@string/navigation_video" />
+
+
+</menu>

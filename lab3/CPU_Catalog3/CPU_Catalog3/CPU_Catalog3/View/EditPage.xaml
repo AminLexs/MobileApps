@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:CPU_Catalog3.Model"
+             x:Class="CPU_Catalog3.View.EditPage">
+
+    <ScrollView>
+        <StackLayout x:Name="stack" Padding="15">
+            <Entry x:Name="Model"  />
+            <Entry x:Name="Manufacturer"  />
+            <Entry x:Name="Bitsdepth"  />
+            <Entry x:Name="Frequency"  />
+            <Entry x:Name="Numcores"  />
+            <Entry x:Name="videoUrl"  />
+            <Entry x:Name="Latitude"  />
+            <Entry x:Name="Longitude"  />
+            <Button Text="GetImage" Clicked="GetImage_OnClicked" />
+            <Button Text="SaveButton" Clicked="SaveButton_OnClicked" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

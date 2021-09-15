@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">CPU Catalog</string>
+    <string name="col1">Image</string>
+    <string name="col2">Manufacturer</string>
+    <string name="col3">Model</string>
+    <string name="col4">Frequency</string>
+    <string name="col5">Number of cores</string>
+    <string name="title_home">Home</string>
+    <string name="title_map">Map</string>
+    <string name="title_settings">Settings</string>
+
+    <string name="login_email">Enter email</string>
+    <string name="login_password">Enter password</string>
+    <string name="login_notreg">Not registered?</string>
+    <string name="login_blogin">Login</string>
+    <string name="login_bregistration">Registration</string>
+
+    <string name="reg_email">Enter email</string>
+    <string name="reg_password">Enter password</string>
+    <string name="reg_manufacturer">Enter manufacturer</string>
+    <string name="reg_model">Enter model</string>
+    <string name="reg_bitsdepth">Enter bitsdepth</string>
+    <string name="reg_frequency">Enter frequency (GHz)</string>
+    <string name="reg_numcores">Enter number of cores</string>
+    <string name="reg_bregister">Register</string>
+
+    <string name="home_selected">Selected</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_english">English</string>
+    <string name="settings_russian">Russian</string>
+
+    <string name="settings_dis_dm">Disable dark mode</string>
+    <string name="settings_enable_dm">Enable dark mode</string>
+    <string name="settings_selectlang">Select language</string>
+    <string name="settings_selectsize">Select font size</string>
+    <string name="settings_selectfont">Select font type</string>
+
+    <string name="detailed_description">Description:</string>
+    <string name="navigation_back">Back</string>
+    <string name="navigation_edit">Edit</string>
+    <string name="navigation_photo">Photos</string>
+    <string name="navigation_save">Save</string>
+    <string name="navigation_video">Video</string>
+
+
+    <string name="edit_model">Enter model</string>
+    <string name="edit_manufacturer">Enter manufacturer</string>
+    <string name="edit_bitsdepth">Enter bits depth</string>
+    <string name="edit_frequency">Enter frequency</string>
+    <string name="edit_button_save">Save</string>
+    <string name="edit_latitude">Enter latitude</string>
+    <string name="edit_longitude">Enter longitude</string>
+    <string name="edit_description">Enter description</string>
+    <string name="edit_numcores">Enter number of cores</string>
+    <string name="edit_coords_value">Enter correct coordinate</string>
+    <string name="edit_fill_all">Fill all fields</string>
+
+    <string name="detailed_core">Cores</string>
+    <string name="detailed_bitsdepth">Bits depth:</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             xmlns:vm="clr-namespace:CPU_Catalog3.Model"
+             x:Class="CPU_Catalog3.View.MapPage">
+    <ContentPage.BindingContext>
+        <vm:ListViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <maps:Map x:Name="map" ItemsSource="{Binding listCPU}">
+                <x:Arguments>
+                    <maps:MapSpan>
+                        <x:Arguments>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>53.893009</x:Double>
+                                    <x:Double>27.567444</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                            <x:Double>4</x:Double>
+                            <x:Double>10</x:Double>
+                        </x:Arguments>
+                    </maps:MapSpan>
+                </x:Arguments>
+                <maps:Map.ItemTemplate>
+                    <DataTemplate>
+                        <maps:Pin Label="{Binding Model}" 
+                          
+                                  InfoWindowClicked="Pin_OnMarkerClicked"/>
+                    </DataTemplate>
+                </maps:Map.ItemTemplate>
+            </maps:Map>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

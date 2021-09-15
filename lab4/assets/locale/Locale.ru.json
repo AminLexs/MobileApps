@@ -1,0 +1,44 @@
+{
+  "screen_login": "ЗВ",
+  "welcome": "Добро пожаловать в ЗВ!",
+  "email": "Email",
+  "password": "Пароль",
+  "model": "Модель",
+  "manufacturer": "Производитель",
+  "frequency": "Частота",
+  "numcores": "Количество ядер",
+  "login": "Войти",
+  "addCPU": "Регистрация",
+  "cpuAddSuccess": "Добавлен новый CPU",
+  "add": "Добавить",
+  "err_email": "Пользователя с таким электронным адресом не существет",
+  "err_password": "Неверный пароль",
+  "err_week_password": "Пароль слишком простой",
+  "err_email_in_use": "Аккаунт с таким электронным адресом уже существет",
+  "err_empty": "Пожалуйста, заполните все поля",
+
+  "users": "Процессоры",
+  "map": "Карта",
+  "settings": "Настройки",
+
+  "search": "Поиск",
+
+  "cpu_edit_success": "Фильм сохранён",
+  "latitude": "Широта",
+  "longitude": "Долгота",
+  "watch_video": "Смотреть видео",
+  "select_video": "Выбрать видео",
+  "save": "Сохранить",
+  "galery": "Галерея",
+
+  "video_screen": "Видео",
+
+  "lang": "Язык",
+  "lang_ru": "Русский",
+  "lang_en": "Английский",
+  "font_size": "Шрифт",
+  "primary_colour": "Цвет",
+  "dark_theme": "Тёмная тема",
+  "select": "Выбрать",
+  "logout": "Выйти"
+}

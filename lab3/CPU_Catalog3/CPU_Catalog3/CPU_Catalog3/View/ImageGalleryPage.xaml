@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CPU_Catalog3.View.ImageGalleryPage"
+             NavigationPage.HasNavigationBar="False"
+             x:Name="This">
+            <!-- BackgroundColor="{AppThemeBinding Dark=Black, Light=White}"-->
+    <ContentPage.BindingContext>
+        <x:Reference Name="This" />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <CarouselView x:Name="Carousel" ItemsSource="{Binding Images}">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Image WidthRequest="400" HeightRequest="650" Source="{Binding .}" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

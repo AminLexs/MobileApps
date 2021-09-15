@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:CPU_Catalog3.View" xmlns:local2="clr-namespace:CPU_Catalog3" 
+            x:Class="CPU_Catalog3.View.NoScrollTabbedPage2">
+
+    <TabbedPage.Children>
+        <local:DetailedPage IconImageSource="{local2:ImageResource CPU_Catalog3.Images.ProfileIcon.png}"/>
+        <local:EditPage IconImageSource="{local2:ImageResource CPU_Catalog3.Images.Edit.png}"/>
+        <local:ImageGalleryPage IconImageSource="{local2:ImageResource CPU_Catalog3.Images.Picture.png}"/>
+        <local:VideoPage  IconImageSource="{local2:ImageResource CPU_Catalog3.Images.Video.png}"/>
+    </TabbedPage.Children>
+</TabbedPage>

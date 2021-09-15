@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; text = "Welcome"; ObjectID = "4zz-rh-bR3"; */
+"4zz-rh-bR3.text" = "Welcome";
+
+/* Class = "UIButton"; normalTitle = "Create"; ObjectID = "Kje-aU-azv"; */
+"Kje-aU-azv.normalTitle" = "Create";
+
+/* Class = "UILabel"; text = "Processor bit depth"; ObjectID = "RGX-pO-aBE"; */
+"RGX-pO-aBE.text" = "Processor bit depth";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "V7d-jz-ny4"; */
+"V7d-jz-ny4.placeholder" = "password";
+
+/* Class = "UITextField"; placeholder = "manufacturer"; ObjectID = "VZI-vc-7qC"; */
+"VZI-vc-7qC.placeholder" = "manufacturer";
+
+/* Class = "UITextField"; placeholder = "frequency"; ObjectID = "Vfc-67-RLC"; */
+"Vfc-67-RLC.placeholder" = "frequency";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "b0E-sD-e3L"; */
+"b0E-sD-e3L.placeholder" = "email";
+
+/* Class = "UITextField"; placeholder = "architecture"; ObjectID = "dKj-bC-S7c"; */
+"dKj-bC-S7c.placeholder" = "architecture";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "goz-DB-vCT"; */
+"goz-DB-vCT.text" = "Label";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "isN-Ls-DF8"; */
+"isN-Ls-DF8.text" = "Registration";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jNz-tG-2Dz"; */
+"jNz-tG-2Dz.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "number of cores"; ObjectID = "lUl-99-By9"; */
+"lUl-99-By9.placeholder" = "number of cores";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "sZM-Fn-Pzw"; */
+"sZM-Fn-Pzw.placeholder" = "email";
+
+/* Class = "UIButton"; normalTitle = "LogIn"; ObjectID = "tvg-wg-EMu"; */
+"tvg-wg-EMu.normalTitle" = "LogIn";
+
+/* Class = "UILabel"; text = "Error"; ObjectID = "xCT-Q6-9Eb"; */
+"xCT-Q6-9Eb.text" = "Error";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "yXP-Ti-wzI"; */
+"yXP-Ti-wzI.placeholder" = "password";
+
+/* Class = "UIButton"; normalTitle = "Create account"; ObjectID = "z7K-1E-uoX"; */
+"z7K-1E-uoX.normalTitle" = "Create account";

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:CPU_Catalog3.Controller"
+             x:Class="CPU_Catalog3.View.TablePage">
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <CollectionView x:Name="collectionview" SelectionMode="Single"
+               SelectionChanged="CollectionViewListSelectionChanged">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2" VerticalItemSpacing="6" HorizontalItemSpacing="3"/>
+                </CollectionView.ItemsLayout>
+                
+                <CollectionView.ItemTemplate >
+                    <DataTemplate x:Name="template" >
+                        <Grid>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="{Binding Avatar} "
+                               WidthRequest="90" HeightRequest="90"
+                               Grid.Column="0"/>
+                            <StackLayout Orientation="Vertical" Grid.Column="1">
+                                <Label TextColor="Gray" Text="{Binding Model }" FontSize="Title" FontFamily="{DynamicResource Key=FontFamily}"/>
+                                <Label TextColor="Gray" Text="{Binding Manufacturer}" FontSize="Subtitle" FontFamily="{DynamicResource Key=FontFamily}"/>
+                                <Label TextColor="Gray" Text="{Binding Numcores}" FontSize="Subtitle" FontFamily="{DynamicResource Key=FontFamily}"/>
+                                <Label TextColor="Gray" Text="{Binding Frequency}" FontSize="Subtitle" FontFamily="{DynamicResource Key=FontFamily}"/>
+                            </StackLayout>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
+

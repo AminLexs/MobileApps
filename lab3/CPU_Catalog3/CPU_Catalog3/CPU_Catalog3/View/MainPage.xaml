@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CPU_Catalog3.View"
+             x:Class="CPU_Catalog3.View.MainPage">
+
+    <ContentPage.Content BackgroundColor="WhiteSmoke">
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+
+            <Entry x:Name="loginEntry"
+                   WidthRequest="220"
+                   HorizontalOptions="Center"
+                   TextColor="#3B3C3D"
+                   Margin="20, 10, 20, 0"/>
+            <Entry x:Name="passEntry"
+                   WidthRequest="220"
+                   IsPassword="True"
+                   HorizontalOptions="Center"
+                   TextColor="#3B3C3D"
+                   Margin="20, 5, 20, 0"/>
+            <Button x:Name="loginButton"
+                    BackgroundColor="#8DB600"
+                    WidthRequest="220"
+                    HorizontalOptions="Center"
+                    Margin="20, 5, 20, 0"
+                    Clicked="OnLogButtonClicked"/>
+            <Label x:Name="regLabel"
+                   HorizontalOptions="Center"
+                   Margin="0, 5, 0, 0"
+                   TextColor="#3B3C3D" />
+
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
